@@ -1,17 +1,17 @@
 # Password Complexity Policy — Overview
 
-## 🎯 Mục tiêu
-- Đảm bảo mật khẩu đủ mạnh để chống lại brute-force và dictionary attacks.  
-- Thiết lập baseline bảo mật nhất quán trong tổ chức.  
-- Cân bằng giữa bảo mật và tính khả dụng cho người dùng.
+## 🎯 Objectives
+- Ensure passwords are strong enough to resist brute-force and dictionary attacks.  
+- Establish a consistent security baseline across the organization.  
+- Balance security requirements with usability for end users.
 
-## 🔑 Vai trò của mật khẩu mạnh
-- Là lớp phòng thủ đầu tiên chống lại truy cập trái phép.  
-- Giảm thiểu nguy cơ từ credential stuffing (tấn công dùng mật khẩu rò rỉ).  
-- Ngăn chặn kẻ tấn công khai thác tài khoản yếu để leo thang đặc quyền.
+## 🔑 Why Strong Passwords Matter
+- Act as the first line of defense against unauthorized access.  
+- Reduce the risk of credential stuffing using leaked password databases.  
+- Prevent attackers from escalating privileges by exploiting weak accounts.
 
-## 🌍 So sánh các chuẩn
-- **NIST SP 800-63B**: độ dài tối thiểu 8, khuyến nghị ≥ 12, không bắt buộc ký tự đặc biệt nhưng cần kiểm tra với blacklist.  
-- **ISO 27001 A.9.4.3**: mật khẩu cần đủ độ phức tạp và được thay đổi định kỳ.  
-- **PCI-DSS**: yêu cầu ≥ 7 ký tự, bao gồm số và chữ cái.  
-- **CIS Benchmarks**: thường khuyến nghị ≥ 14 ký tự, có MFA bổ sung.
+## 🌍 Standards Comparison
+- **NIST SP 800-63B**: Minimum 8 characters (recommended ≥12), no strict requirement for symbols but disallow common/compromised passwords.  
+- **ISO 27001 A.9.4.3**: Passwords should be complex and periodically reviewed.  
+- **PCI-DSS**: Requires at least 7 characters, must include both numbers and letters.  
+- **CIS Benchmarks**: Often recommends ≥14 characters and enforcing MFA alongside password rules.
